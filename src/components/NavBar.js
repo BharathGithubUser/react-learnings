@@ -37,7 +37,7 @@ class NavBar extends Component {
                                 Dropdown
         </a>
                             <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                <Link to={"/"} className="dropdown-item">Action</Link>
+                                <Link to={"/some"} className="dropdown-item">Action</Link>
                                 <a className="dropdown-item" href="#">Another action</a>
                                 <a className="dropdown-item" href="#">Something else here</a>
                             </div>

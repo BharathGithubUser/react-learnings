@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import NavBar from "./NavBar"
 
 class Home extends Component {
   render() {
     return (
       <div>
+        <NavBar />
         <h2 className="text-center">Home</h2>
         <div className="row">
           <div className="col-sm-2">Sidebar</div>
