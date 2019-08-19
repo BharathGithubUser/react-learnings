@@ -10,9 +10,11 @@ class Home extends Component {
         <div className="row">
           <div className="col-sm-2">Sidebar</div>
           <div className="col-sm-10">
-            <div className = "container-fluid">
-              <div className = "row">
-                <Slider/>
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-sm-12">
+                  <Slider />
+                </div>
               </div>
             </div>
           </div>
