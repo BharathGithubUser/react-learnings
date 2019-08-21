@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import { BrowserRouter as Router, Switch, Route, Link }
-  from 'react-router-dom';
+    from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 import Home from "./Home"
 import About from "./About"
 class NavBar extends Component {
@@ -26,11 +28,11 @@ class NavBar extends Component {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active">
-                            <Link to={"/"} className="nav-link">Home</Link>
+                        <li className="nav-item">
+                            <NavLink to={"/"} exact className="nav-link" activeClassName="active" >Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link to={"/about"} className="nav-link">About</Link>
+                            <NavLink to={"/about"} className="nav-link" activeClassName="nav-item active" >About</NavLink>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
