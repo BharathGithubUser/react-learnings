@@ -18,7 +18,7 @@ class Slider extends Component {
                             <img className="d-block w-100" src={sliderImg1} alt="First slide" />
                         </div>
                         <div className="carousel-item">
-                            <img style={{width: '100%'}}className="d-block w-100" src={sliderImg2} alt="Second slide" />
+                            <img className="d-block w-100" src={sliderImg2} alt="Second slide" />
                         </div>
                         <div className="carousel-item">
                             <img className="d-block w-100" src={sliderImg3} alt="Third slide" />
